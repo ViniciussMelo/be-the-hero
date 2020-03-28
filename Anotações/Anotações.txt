@@ -1,0 +1,31 @@
+Formas de acertar na stack:
+1 - Investir muito tempo experimentando de tudo;
+2 - Encontrar alguém que já tenha chegado onde você quer chegar.
+3 - O que o mercado está procurando
+4 - O tamanho da comunidade e do ecossistema ao redor dessas tecnologias
+5 - Quem está por trás do desenvolvimento delas
+6 - Quais são os casos de uso das tecnologias
+7 - Quantidade de vagas disponíveis no mercado
+8 - Quais empresas e quantas empresas estão utilizando
+
+Tipos de parâmetros:
+- Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+Ex: http://localhost:3333/users?page2&name=Vinicius&idade=19 -> Pagina 2, nome Vinicius e idade 19
+request.query
+
+- Route Params: Parâmetros utilizados para identificar recursos
+Ex: http://localhost:3333/users/1 -> usuário com Id = 1
+request.params 
+
+- Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+request.body
+
+- Request body = Cabeçalho da requisição, caracteriza o contexto da requisição
+request.headers
+
+./ -> indicar que é um arquivo e não um pacote.
+
+Pacote crypto, gerar strings aleatórias, para id string pore exemplo.
+
+.gitignore:
+node_modules

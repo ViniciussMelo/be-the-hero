@@ -1,0 +1,42 @@
+- Instalar o chocolatey: 
+https://chocolatey.org/install
+
+PowerShell como admnistrador:
+
+- cinst nodejs-lts -> Instala a versão mais estável do nodejs-lts
+
+Back-end
+- npm init -y -> Executar na pasta do projeto
+- npm install nodemon -D  -> Instalar o nodemon, "-D" apenas no desenvolvimento.
+- Arquivo package.json:
+"scripts": {
+    "start": "nodemon src/index.js" -> Para que utilize o nodemon ao invés do node
+  }
+
+- Query Builder: npm install knex
+- Banco de dados: npm install sqlite3
+- Configurações de acesso ao banco de dados: npx knex init
+- Arquivo knexfle.js, adicionar o diretório das migrations:
+migrations: {
+  directory: './src/database/migrations'
+},
+useNullAsDefault: true,
+- Criar uma migration: npx knex migrate:make create_ongs -> onde "create_ongs" é o nome
+- Rodar as migrations (up): npx knex migrate:latest
+- Voltar as migrations (down): npx knex migrate:rollback
+- Módulo de segurança: npm install cors
+
+Front-end
+- npx create-react-app frontend
+
+VsCode:
+- npm install express -> Micro Framework para controlar as rotas/parametros
+
+BACK-END:
+Importar o EXPRESS
+const express = require('express');
+
+const app = express();
+
+INFORMAR PARA O APP QUE ESTAREMOS USANDO JSON NAS REQUISIÇÕES(TEM QUE SER ANTES DAS ROTAS)
+app.use(express.json());
