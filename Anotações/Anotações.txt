@@ -29,3 +29,5 @@ Pacote crypto, gerar strings aleatórias, para id string pore exemplo.
 
 .gitignore:
 node_modules
+
+deep linking: Acessar outro aplicativo no celular

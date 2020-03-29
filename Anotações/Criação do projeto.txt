@@ -35,6 +35,19 @@ useNullAsDefault: true,
 SRC: README, APP.CSS, AP.TEST.JS, INDEX.CSS, LOGO.SVG, SERVICEWORKER.JS, SETUPTESTS.JS
 PUBLIC: ROBOTS.TXT, MANIFEST.JSON, LOGOS,
 
+* Mobile:
+- npm install -g expo-cli -> instalar expo versão global -> setExecutionPolicy Unrestricted
+- expo init mobile -> inicar o expo na pasta mobile
+- choco install yarn -> instalar o yarn
+- Configuração de rotas:
+npm install @react-navigation/native; 
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+- npm install @react-navigation/stack -> navegação por botões
+- expo install expo-constants
+- expo install expo-mail-composer: Pacote para usar o email
+- npm install axios -> Chamadas API
+- npm install intl -> Adicionar  a funcionalidade intl no android
+
 VsCode:
 - npm install express -> Micro Framework para controlar as rotas/parametros
 Habilitar o "div.logon" + enter: ja monta o classname
