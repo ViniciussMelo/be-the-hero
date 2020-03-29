@@ -5,7 +5,7 @@ PowerShell como admnistrador:
 
 - cinst nodejs-lts -> Instala a versão mais estável do nodejs-lts
 
-Back-end
+* Back-end
 - npm init -y -> Executar na pasta do projeto
 - npm install nodemon -D  -> Instalar o nodemon, "-D" apenas no desenvolvimento.
 - Arquivo package.json:
@@ -26,11 +26,21 @@ useNullAsDefault: true,
 - Voltar as migrations (down): npx knex migrate:rollback
 - Módulo de segurança: npm install cors
 
-Front-end
+* Front-end
 - npx create-react-app frontend
+- npm install react-icons: pacote de ícones 
+- npm install react-router-dom : Parte de rotas
+- npm install axios: Client HTTP
+- Deletar: 
+SRC: README, APP.CSS, AP.TEST.JS, INDEX.CSS, LOGO.SVG, SERVICEWORKER.JS, SETUPTESTS.JS
+PUBLIC: ROBOTS.TXT, MANIFEST.JSON, LOGOS,
 
 VsCode:
 - npm install express -> Micro Framework para controlar as rotas/parametros
+Habilitar o "div.logon" + enter: ja monta o classname
+ctrl + shift + p: Open settings JSON
+"emmet.syntaxProfiles": { "javascript": "jsx" },
+"emmet.includeLanguages": { "javascript": "javascriptreact" }
 
 BACK-END:
 Importar o EXPRESS
