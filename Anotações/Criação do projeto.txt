@@ -25,6 +25,7 @@ useNullAsDefault: true,
 - Rodar as migrations (up): npx knex migrate:latest
 - Voltar as migrations (down): npx knex migrate:rollback
 - Módulo de segurança: npm install cors
+- Validações: npm install celebrate
 
 * Front-end
 - npx create-react-app frontend
@@ -47,6 +48,14 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 - expo install expo-mail-composer: Pacote para usar o email
 - npm install axios -> Chamadas API
 - npm install intl -> Adicionar  a funcionalidade intl no android
+
+* Testes:
+- Teste: npm install jest -> npx jest --init
+- Integration: Vão testar um fluxo de uma rota inteira
+- Unit: Testa um pedaço de uma função muito isolada
+- npm install cross-env -> Verificar que está em ambiente de testes
+- Chamadas API para testes: npm install supertest -D
+
 
 VsCode:
 - npm install express -> Micro Framework para controlar as rotas/parametros
